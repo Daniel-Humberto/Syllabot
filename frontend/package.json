@@ -1,0 +1,30 @@
+{
+  "name": "syllabot-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3001",
+    "build": "next build",
+    "start": "next start -p 3001",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@ai-sdk/openai": "^3.0.112",
+    "@copilotkit/react-core": "^1.71.1",
+    "@copilotkit/react-ui": "^1.71.1",
+    "@copilotkit/runtime": "^1.71.1",
+    "next": "16.3.5",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.9",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.7.3"
+  },
+  "overrides": {
+    "qs": "^6.16.0",
+    "undici": "^6.28.1"
+  }
+}
